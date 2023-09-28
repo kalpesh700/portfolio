@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <style>
+        
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Poppins:wght@300;600&display=swap');
+
+        body{
+            background-color:rgb(172 193 207);
+            color: white;
+            
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: #1e1e23;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        .left{
+            font-size: 1.5em;
+        }
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 23px;
+        }
+        .firstsection div{
+            width: 30%;
+        }
+
+        .leftsection {
+        
+            
+            width: 50%;
+            font-size: 2rem;
+        margin-top: 16%;
+        }
+        .leftsection div{
+            width: 100%;
+        }
+        .rightsection{
+        
+            width: 50%;
+            margin-right: 30px;
+
+        }
+        .name{
+            color:purple;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: green;
+        }
+        #element{
+            color: rebeccapurple;
+        }
+        .footer{
+            background-color: #1e1e23;
+            display: flex;
+            height: 334px;
+            margin-top: 20px;
+            padding: 33px 204px;
+            justify-content: space-evenly;
+            
+        }
+      .footer ul{
+        text-decoration: none;
+        list-style: none;
+      }
+      .footer > div{
+        width: 280px;
+      }
+     footer.copyright{
+     
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        
+       
+
+     }
+     .copy:hover{
+        text-decoration: underline;
+     }
+     .btn{
+        padding: 6px;
+        margin: 2px 3px;
+        font-size: 0.4em;
+        color:white;
+        background-color: black;
+        border: 2px solid white;
+
+     
+     }
+     .btn:hover{
+        background-color: grey;
+     }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Kalpesh's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                  <li><a href="WWW.Kalpeshsportfolio.com ">Home</a></li>
+                <li><a onclick="opengithhublink()" href="#">about</a></li>
+                <li><a  href="coming.html">services</a></li>
+                <li><a  href="coming.html">projects</a></li>
+                <li><a onclick="opengithhublink()" href="#">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+  
+   <section class="firstsection">
+    <div class="leftsection">Hi ,MY name is <span class="name">Kalpesh</span> 
+      <div>i am a web Developer</div>
+      <span id="element"></span>
+      
+    <div class="button"> <button class="btn">Download Resume</button>
+        <button onclick="opengithhublink()" class="btn">Visit Github</button></div>
+     
+    </div>
+    
+    <div class="rightsection"><img src="de.png" alt=""></div>
+   </section>
+   <footer>
+    <div class="footer">
+        <div class="footerfirst">
+            <h2>Kalpesh's Developer Portfolio</h2>
+            <p>Welcome to my developer portfolio. I am a passionate web developer dedicated to creating beautiful and functional websites.</p>
+        </div>
+        <div class="footersecond">
+            <h3>Navigation</h3>
+            <ul>
+            
+                    <li><a href="WWW.Kalpeshsportfolio.com ">Home</a></li>
+                  <li><a onclick="opengithhublink()" href="#">about</a></li>
+                  <li><a  href="coming.html">services</a></li>
+                  <li><a  href="coming.html">projects</a></li>
+                  <li><a onclick="opengithhublink()" href="#">contact me</a></li>
+                  
+            </ul>
+        </div>
+        <div class="footerthird">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="https://github.com/kalpesh700">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/kalpesh-koli-033342245/">LinkedIn</a></li>
+                <li><a href="WWW.Kalpeshsportfolio.com ">Portfolio</a></li>
+            </ul>
+        </div>
+        <div class="footerfour">
+            <h3>Contact</h3>
+            <ul>
+                <li>Email: iamkalpesh0@gmail.com</li>
+                <li>Phone: 9765390297</li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="Copyright">
+            Copyright  &#0169; WWW.Kalpeshsportfolio.com | ALL rights reserved
+        </div>
+    </footer>
+    
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>web developer</i> .', '&amp; programmer.'],
+      typeSpeed: 50,
+    });
+        function opengithhublink() {
+        window.open("https://github.com/kalpesh700");
+    }
+    
+  </script>
+
+</body>
+</html> 
