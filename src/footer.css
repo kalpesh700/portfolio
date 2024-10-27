@@ -1,0 +1,17 @@
+footer {
+    background-color: #2c3e50; /* Darker shade for a modern look */
+    color: #ecf0f1; /* Light color for the text */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center text alignment */
+  }
+  
+  footer p {
+    font-family: 'Poppins', sans-serif; /* Consistent font */
+    font-size: 14px; /* Adjust font size */
+    margin: 0; /* Remove default margin */
+  }
+
+  .footer a {
+    text-decoration: underline; 
+    color: #ecf0f1;
+  }
