@@ -13,7 +13,7 @@ Contributing
 Contact
 Project Overview
 This portfolio website was created to highlight my skills, past projects, and other relevant information. It includes sections such as:
-![Uploading e.png…]()
+
 
 About Me
 Skills
